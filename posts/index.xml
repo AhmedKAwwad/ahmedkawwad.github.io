@@ -6,7 +6,16 @@
     <description>Recent content in Posts on Awwad&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 22 Aug 2024 01:41:28 +0400</lastBuildDate><atom:link href="https://ahmedkawwad.github.io/posts/index.xml" rel="self" type="application/rss+xml" /><item>
+    <lastBuildDate>Fri, 27 Dec 2024 06:01:20 +0400</lastBuildDate><atom:link href="https://ahmedkawwad.github.io/posts/index.xml" rel="self" type="application/rss+xml" /><item>
+      <title>My Vault</title>
+      <link>https://ahmedkawwad.github.io/posts/writeups/myvault/</link>
+      <pubDate>Fri, 27 Dec 2024 06:01:20 +0400</pubDate>
+      
+      <guid>https://ahmedkawwad.github.io/posts/writeups/myvault/</guid>
+      <description>Think Brute Crack</description>
+    </item>
+    
+    <item>
       <title>What&#39;s like to be a SOC</title>
       <link>https://ahmedkawwad.github.io/posts/soc/whats-like-to-be-soc/</link>
       <pubDate>Thu, 22 Aug 2024 01:41:28 +0400</pubDate>

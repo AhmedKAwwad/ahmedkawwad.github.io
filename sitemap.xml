@@ -103,10 +103,16 @@
     <priority>0.1</priority>
   </url><url>
     <loc>https://ahmedkawwad.github.io/</loc>
-    <lastmod>2024-08-22T01:41:28+04:00</lastmod>
+    <lastmod>2024-12-27T06:01:20+04:00</lastmod>
+  </url><url>
+    <loc>https://ahmedkawwad.github.io/posts/writeups/myvault/</loc>
+    <lastmod>2024-12-27T06:01:20+04:00</lastmod>
   </url><url>
     <loc>https://ahmedkawwad.github.io/posts/</loc>
-    <lastmod>2024-08-22T01:41:28+04:00</lastmod>
+    <lastmod>2024-12-27T06:01:20+04:00</lastmod>
+  </url><url>
+    <loc>https://ahmedkawwad.github.io/posts/writeups/</loc>
+    <lastmod>2024-12-27T06:01:20+04:00</lastmod>
   </url><url>
     <loc>https://ahmedkawwad.github.io/posts/soc/</loc>
     <lastmod>2024-08-22T01:41:28+04:00</lastmod>
@@ -118,9 +124,6 @@
     <lastmod>2022-03-18T01:01:28+04:00</lastmod>
   </url><url>
     <loc>https://ahmedkawwad.github.io/posts/writeups/equation/</loc>
-    <lastmod>2022-03-18T01:01:28+04:00</lastmod>
-  </url><url>
-    <loc>https://ahmedkawwad.github.io/posts/writeups/</loc>
     <lastmod>2022-03-18T01:01:28+04:00</lastmod>
   </url><url>
     <loc>https://ahmedkawwad.github.io/categories/basic/</loc>

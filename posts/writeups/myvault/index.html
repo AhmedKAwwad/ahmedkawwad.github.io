@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Equat1on writeup</title>
+    <title>My Vault</title>
     <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta http-equiv="X-UA-Compatible" content="ie=edge" />
@@ -38,18 +38,18 @@
 
   <link rel="icon" type="image/png" href="/images/site/k-icon-invert_hu853d0774892b5f84d30746ce0d4103bc_12477_42x0_resize_box_3.png" />
 
-<meta property="og:title" content="Equat1on writeup" />
-<meta property="og:description" content="Zain CTF 2022 — Cybertalents" />
+<meta property="og:title" content="My Vault" />
+<meta property="og:description" content="Think Brute Crack" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://ahmedkawwad.github.io/posts/writeups/equation/" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2022-03-18T01:01:28+04:00" />
-<meta property="article:modified_time" content="2022-03-18T01:01:28+04:00" />
+<meta property="og:url" content="https://ahmedkawwad.github.io/posts/writeups/myvault/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2024-12-27T06:01:20+04:00" />
+<meta property="article:modified_time" content="2024-12-27T06:01:20+04:00" />
 
 
 
     
     
-<meta name="description" content="Zain CTF 2022 — Cybertalents" />
+<meta name="description" content="My Vault" />
 <link
   rel="stylesheet"
   href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/atom-one-dark.min.css"
@@ -244,21 +244,21 @@ if (!doNotTrack) {
   
   
   
-    
-    
-  
   
     
-    <li><a class="active" href="/posts/writeups/equation/" title="Equat1on">Equat1on</a></li>
+    <li><a class="" href="/posts/writeups/equation/" title="Equat1on">Equat1on</a></li>
   
 
   
   
   
   
+    
+    
+  
   
     
-    <li><a class="" href="/posts/writeups/myvault/" title="My Vault">My Vault</a></li>
+    <li><a class="active" href="/posts/writeups/myvault/" title="My Vault">My Vault</a></li>
   
 
   
@@ -290,7 +290,7 @@ if (!doNotTrack) {
   <div class="content">
     <div class="container p-0 read-area">
       
-      <div class="hero-area col-sm-12" id="hero-area" style='background-image: url(/posts/writeups/equation/hero.svg);'>
+      <div class="hero-area col-sm-12" id="hero-area" style='background-image: url(/posts/writeups/myvault/hero.jpg);'>
       </div>
 
       
@@ -298,19 +298,18 @@ if (!doNotTrack) {
         <div class="author-profile ml-auto align-self-lg-center">
           <img class="rounded-circle" src='/images/author/avatar3_huf5636dc089c392d128deee48ab1cfda5_92383_120x120_fit_q75_box.jpg' alt="Author Image">
           <h5 class="author-name">Ahmed Khaled A. Awwad</h5>
-          <p>Friday, March 18, 2022</p>
+          <p>Friday, December 27, 2024</p>
         </div>
 
         <div class="title">
-          <h1>Equat1on writeup</h1>
+          <h1>My Vault</h1>
         </div>
         
         <div class="post-content" id="post-content">
-          <h3 id="zain-ctf-2022--cybertalents">Zain CTF 2022 — Cybertalents</h3>
-<p>Description : You won&rsquo;t pass our gate!</p>
+          <h3 id="0xl4ugh-ctf-2024">0xL4ugh CTF 2024</h3>
+<h5 id="description--i-love-saving-my-chats-with-my-friends-on-my-laptop-but-i-should-protect-them-they-have-info-can-make-you-a-billionaire--so-to-protect-them-well-i-decided-to-protect-each-chat-with-a-different-password-so-i-will-protect-each-one-with-the-year-i-knew-him-at-and-his-country-example-is-2013brazil-now-im-sure-im-the-only-one-who-know-these-info">Description : I love saving my chats with my friends on my laptop but I should protect them, they have info can make you a billionaire 😎, so to protect them well I decided to protect each chat with a different password, so I will protect each one with the year I knew him at and his country (example is 2013brazil) now I&rsquo;m sure I&rsquo;m the only one who know these info</h5>
 <p>Category: Crytpography</p>
-<p>here is the challenge file , is a python code
-as it seems open a file “flag.txt” and read it</p>
+<p>here is the challenge file , is a python code as it seems open a file “flag.txt” and read it</p>
 <!DOCTYPE html>
 <html>
 <head>
@@ -341,54 +340,133 @@ as it seems open a file “flag.txt” and read it</p>
 <p></style></p>
 </head>
 <body>
-<p><a download =challenge.py  target = "_blank" class = "button-dl" href="/files/challenge.py" >Challenge.py</a></p>
+<p><a download =myvault.rar  target = "_blank" class = "button-dl" href="/files/myvault.rar" >myvault.rar</a></p>
+<p>After analysis the description and the scriptA straightforward guide to understanding and implementing file encryption using Python&rsquo;s cryptography library.</p>
+<h2 id="what-this-script-does">What This Script Does</h2>
+<p>This script takes a file and password from the user, encrypts the file contents using Fernet encryption, and saves it as a new encrypted file.</p>
+<h2 id="the-code-structure">The Code Structure</h2>
+<p>Three main functions:</p>
+<ol>
+<li><code>generate_key()</code> - Creates encryption key from password</li>
+<li><code>encrypt_file()</code> - Handles the actual file encryption</li>
+<li><code>main()</code> - Gets user input and runs the encryption</li>
+</ol>
+<h2 id="quick-code-breakdown">Quick Code Breakdown</h2>
+<h3 id="1-key-generation">1. Key Generation</h3>
 <pre tabindex="0"><code>#!python3 
-from math import *
-with open(&#39;flag.txt&#39;,&#39;r&#39;) as fg:
-  flag=fg.read()
-</code></pre><h3 id="calcxval-function">calc(x,val) function:</h3>
-<pre tabindex="0"><code>  def calc(x,val):
-    return {
-      0: lambda x: (x+1)/(x-1),
-      1: lambda x: 984512/(x-69964)+69964
-    }[val](x)
-</code></pre><p>seems it check if “val” is “0” &gt; x = (x+1)/(x-1)
-if “val” is “1”&gt; x = 984512/(x-69964)+69964
-x is the ascii order passed to get_val(x,i)</p>
-<h3 id="main-function">Main function:</h3>
-<pre tabindex="0"><code>  enc=[]
-  i= 0
-  for L in flag:
-    enc.append(get_val(ord(L),i))
-    i+=1
-</code></pre><p>read every letter in flag and read it with ord() which gets the Ascii order of the letter.</p>
-<p>Then pass it to get_val() function and append it to enc variable “enc.append()”</p>
-<h3 id="get_val-xi-function">get_val (x,i) function:</h3>
-<pre tabindex="0"><code>  def get_val(x,i):
-    if ( i % 2 == 0 ):
-      return calc(x,1)
-    else:
-      return calc(x,0)
-</code></pre><p>seems it check if “i” is even &gt; pass the x parameter and “1” to calc() function
-if “i” is odd &gt; pass the x parameter and “0” to calc() function
-and there’s a comment down there</p>
-<pre tabindex="0"><code>[69949.90776101458, 1.0186915887850467, 69949.90876951923, 1.0196078431372548, 69949.90352371817, 1.0277777777777777, 69949.90614710683, 1.017094017094017, 69949.90594534237, 1.0186915887850467, 69949.90473463427, 1.017391304347826, 69949.90715584248, 1.018181818181818, 69949.90614710683, 1.024390243902439, 69949.90917288068, 1.0208333333333333, 69949.90534001432, 1.04, 69949.90917288068, 1.02, 69949.90876951923, 1.0175438596491229, 69949.90392737999, 1.0212765957446808, 69949.90574357212, 1.02, 69949.90876951923, 1.0175438596491229, 69949.90392737999, 1.0212765957446808, 69981.0168870452, 1.0212765957446808, 69949.90513822675, 1.0178571428571428, 69949.90473463427, 1.0192307692307692, 69949.90372555197, 1.0166666666666666, 69949.90312003322, 1.2222222222222223]
-</code></pre><p>seems like the flag results after the whole operation, then decided to reverse it</p>
-<p>Then enc will be filled with “asci order number ” of each character in flag after performing the above equation depends on his order in flag string which is in flag.txt ,</p>
-<p>either odd order {1,3,5,…etc} or even order {0,2,4,..etc}
-so, i reversed each equation in a function depending on their order too.</p>
-<p>Here is the Mathematics part to get the Ascii order out of the &ldquo;enc&rdquo; value we reverse equation when i = 1 (even order) 
-<br><br>
-<img class = "img" src="/files/equ-even.JPG" alt="equation for even" width="250" height="150" style="vertical-align:middle;margin:0px 450px">
-<br><br>
-Here is the Mathematics part to get the Ascii order out of the &ldquo;enc&rdquo; value we reverse equation when i = 1 (odd order)
-<br><br>
-<img class = "img" src="/files/equ-odd.JPG" alt="equation for odd" width="350" height="150" style="vertical-align:middle;margin:0px 400px">
-<br><br>
-Here is how we can scripit that equation depending on order of each enc and return back the ascii order and then read it as letter.</p>
-<p>then append each letter reversed from the commented enc list to “flag”</p>
-<p><a download =reverseEquation.py target = "_blank" class = "button-dl" href="/files/reverseEquation.py" >reverseEquation.py</a></p>
-<p>Then the flag come up : <code>flag{InvolutionS_ar3_easy_peasy_🍋_squizy}</code></p>
+# Function to generate a key from the password
+def generate_key(password):
+    # Hash the password to generate a consistent key
+    password_bytes = password.encode(&#39;utf-8&#39;)
+    key = hashlib.sha256(password_bytes).digest()  # SHA256 to get a 32-byte key
+    return base64.urlsafe_b64encode(key)  # Fernet requires the key to be in base64 format
+</code></pre><ul>
+<li>Converts password to bytes</li>
+<li>Creates SHA256 hash</li>
+<li>Returns base64 encoded key for Fernet</li>
+</ul>
+<h3 id="2-file-encryption">2. File Encryption</h3>
+<pre tabindex="0"><code>  # Function to encrypt the file
+def encrypt_file(file_name, password):
+    # Generate a key based on the password
+    key = generate_key(password)
+    cipher = Fernet(key)
+
+    # Read the original file content
+    with open(file_name, &#39;rb&#39;) as file:
+        file_data = file.read()
+
+    # Encrypt the data
+    encrypted_data = cipher.encrypt(file_data)
+</code></pre><ul>
+<li>Gets encryption key from password</li>
+<li>Reads file as binary</li>
+<li>Encrypts data using Fernet</li>
+<li>Saves as new encrypted file</li>
+</ul>
+<h2 id="how-to-decrypt-that">How to Decrypt that</h2>
+<h3 id="building-a-simple-password-bruteforce-list-for-file-decryption">Building a Simple Password Bruteforce List for File Decryption</h3>
+<p>Let&rsquo;s create a basic bruteforce list combining years and countries (as mentioned in description), then use it to attempt decrypting files.</p>
+<h4 id="1-creating-the-wordlist">1. Creating the Wordlist</h4>
+<p>Here&rsquo;s a simple Python script to generate our wordlist:</p>
+<pre tabindex="0"><code>#!python3 
+ def generate_combinations():
+    # Get years from 1900 to 2024
+    years = range(1900, 2025)
+    
+    # Get countries
+    countries = [&#34;USA&#34;, &#34;UK&#34;, &#34;Canada&#34;, &#34;Australia&#34;, &#34;France&#34;, &#34;Germany&#34;, &#34;Japan&#34;, &#34;China&#34;, &#34;India&#34;,...etc] #list all 195 countries in here
+    
+    print(f&#34;Generating combinations for {len(countries)} countries and {len(range(1900, 2025))} years...&#34;)
+
+    # Generate combinations and write to file
+    with open(&#39;combinations.txt&#39;, &#39;w&#39;, encoding=&#39;utf-8&#39;) as f:
+        for year in years:
+            for country in countries:
+                # Write combinations
+                f.write(f&#34;{year}{country}\n&#34;)
+
+    print(f&#34;Combinations file generated successfully!&#34;)
+
+if __name__ == &#34;__main__&#34;:
+    generate_combinations() 
+</code></pre><p>This creates combinations like:</p>
+<ul>
+<li>USA1999</li>
+<li>1999USA</li>
+<li>France2020</li>
+<li>2020France
+etc.</li>
+</ul>
+<h2 id="2-decryption-script-with-bruteforce">2. Decryption Script with Bruteforce</h2>
+<p>Here is my decryption script to attempt decryption with the combination we had created</p>
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+.button-dl {
+  border:  2px solid #008CBA;/* Blue */
+  border-radius: 9px;
+  color: black;
+  padding: 9px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  margin-left: 80px;
+  cursor: pointer;
+  background-color: #ffffff;
+  transition-duration: 0.4s;
+  box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 4px 15px 0 rgba(0,0,0,0.19);
+  }
+.button-dl:hover {
+  background-color: #008CBA; /* Blue */
+  color: white;
+}
+.button-dl:active {
+  background-color: #3e8e41;/* Green */
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+<p></style></p>
+</head>
+<body>
+<p><a download =Decrypt-Script.py  target = "_blank" class = "button-dl" href="/files/Decrypt-Script.py" >Decrypt.py</a></p>
+<h2 id="key-points">Key Points</h2>
+<ol>
+<li>The wordlist generator creates all possible combination of &lt;years&gt;&lt;country&gt;</li>
+<li>Each password is tried until either:
+<ul>
+<li>Successful decryption occurs</li>
+</ul>
+</li>
+<li>Successfully decrypted files are automatically saved</li>
+</ol>
+<p>After decrypt the 3 messages files you will get the flag parts</p>
+<p>live Update: 
+THE FLAG will appear this way <code>0xL4ugh{sad!_</code> <code>_no_easy_challs</code> <code>anymore}</code>
+but you should move the 2nd <code>_</code> to be at the end of the 2nd part to be this way</p>
+<p><code>0xL4ugh{sad!_no_easy_challs_anymore}</code></p>
+<p>Remember: This demonstrates why strong, random passwords are important - simple patterns are vulnerable to bruteforce attacks.</p>
 </body>
 </html>
         </div>
@@ -400,31 +478,31 @@ Here is how we can scripit that equation depending on order of each enc and retu
         
             <strong>Share on:</strong>
             
-            <a class="btn btn-sm facebook-btn" href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fahmedkawwad.github.io%2fposts%2fwriteups%2fequation%2f" target="_blank">
+            <a class="btn btn-sm facebook-btn" href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fahmedkawwad.github.io%2fposts%2fwriteups%2fmyvault%2f" target="_blank">
               <i class="fab fa-facebook"></i>
             </a>
             
             
-                <a class="btn btn-sm twitter-btn" href="https://twitter.com/share?url=https%3a%2f%2fahmedkawwad.github.io%2fposts%2fwriteups%2fequation%2f&text=Equat1on%20writeup&via=Awwad%27s%20Blog" target="_blank">
+                <a class="btn btn-sm twitter-btn" href="https://twitter.com/share?url=https%3a%2f%2fahmedkawwad.github.io%2fposts%2fwriteups%2fmyvault%2f&text=My%20Vault&via=Awwad%27s%20Blog" target="_blank">
                   <i class="fab fa-twitter"></i>
                 </a>
             
             
-                <a  class="btn btn-sm reddit-btn" href="https://reddit.com/submit?url=https%3a%2f%2fahmedkawwad.github.io%2fposts%2fwriteups%2fequation%2f&title=Equat1on%20writeup" target="_blank">
+                <a  class="btn btn-sm reddit-btn" href="https://reddit.com/submit?url=https%3a%2f%2fahmedkawwad.github.io%2fposts%2fwriteups%2fmyvault%2f&title=My%20Vault" target="_blank">
                   <i class="fab fa-reddit"></i>
                 </a>
             
             
             
             
-                <a class="btn btn-sm linkedin-btn" href="https://www.linkedin.com/shareArticle?url=https%3a%2f%2fahmedkawwad.github.io%2fposts%2fwriteups%2fequation%2f&title=Equat1on%20writeup" target="_blank">
+                <a class="btn btn-sm linkedin-btn" href="https://www.linkedin.com/shareArticle?url=https%3a%2f%2fahmedkawwad.github.io%2fposts%2fwriteups%2fmyvault%2f&title=My%20Vault" target="_blank">
                   <i class="fab fa-linkedin"></i>
                 </a>
             
             
              
             
-                 <a class="btn btn-sm whatsapp-btn" href="https://api.whatsapp.com/send?text=Equat1on%20writeup https%3a%2f%2fahmedkawwad.github.io%2fposts%2fwriteups%2fequation%2f" target="_blank">
+                 <a class="btn btn-sm whatsapp-btn" href="https://api.whatsapp.com/send?text=My%20Vault https%3a%2f%2fahmedkawwad.github.io%2fposts%2fwriteups%2fmyvault%2f" target="_blank">
                   <i class="fab fa-whatsapp"></i>
                 </a>
             
@@ -439,7 +517,7 @@ Here is how we can scripit that equation depending on order of each enc and retu
           
           <div class="col-md-6 btn-improve-page">
              
-               <a href="https://github.com/AhmedKAwwad/ahmedkawwad.github.io/edit/source/content/posts%5cWriteups%5cequation%5cindex.md" title="Improve this page" target="_blank" rel="noopener">
+               <a href="https://github.com/AhmedKAwwad/ahmedkawwad.github.io/edit/source/content/posts%5cWriteups%5cMyVault%5cindex.md" title="Improve this page" target="_blank" rel="noopener">
             
                 <i class="fas fa-code-branch"></i>
                 Improve this page
@@ -473,11 +551,11 @@ Here is how we can scripit that equation depending on order of each enc and retu
   
 
   
-    
-    
-  
   
 
+  
+    
+    
   
   
 
@@ -488,9 +566,9 @@ Here is how we can scripit that equation depending on order of each enc and retu
 <div class="row next-prev-navigator">
   
     <div class="col-md-6 previous-article">
-      <a href="/posts/writeups/email/" title="Email Address writeup" class="btn btn-outline-info">
+      <a href="/posts/writeups/equation/" title="Equat1on writeup" class="btn btn-outline-info">
         <div><i class="fas fa-chevron-circle-left"></i> Prev</div>
-        <div class="next-prev-text">Email Address writeup</div>
+        <div class="next-prev-text">Equat1on writeup</div>
       </a>
     </div>
   
@@ -500,9 +578,9 @@ Here is how we can scripit that equation depending on order of each enc and retu
         
       
       <div class="col-md-6 next-article">
-        <a href="/posts/writeups/myvault/" title="My Vault" class="btn btn-outline-info">
+        <a href="/posts/writeups/squirrel/" title="Squirrel writeup" class="btn btn-outline-info">
           <div>Next <i class="fas fa-chevron-circle-right"></i></div>
-          <div class="next-prev-text">My Vault</div>
+          <div class="next-prev-text">Squirrel writeup</div>
         </a>
       </div>
     
